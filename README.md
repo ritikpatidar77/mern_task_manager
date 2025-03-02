@@ -112,18 +112,18 @@ Following are the major dev-dependencies of the project:
    npm run dev
    ```
 
-4. Go to http://localhost:3000
+4. Go to http://localhost:5000
 
 ## Backend API
 
 <pre>
-- POST     /api/auth/signup
-- POST     /api/auth/login
-- GET      /api/tasks
-- GET      /api/tasks/:taskId
-- POST     /api/tasks
-- PUT      /api/tasks/:taskId
-- DELETE   /api/tasks/:taskId
+- POST     /user/auth/signup
+- POST     /user/auth/login
+- GET      /task/tasks
+- GET      /task/tasks/:taskId
+- POST     /task/tasks
+- PUT      /task/tasks/:taskId
+- DELETE   /task/tasks/:taskId
 - GET      /api/profile
 </pre>
 
@@ -162,7 +162,7 @@ Inside backend folder:
 
 - This project
 
-  - Github Repo: https://github.com/aayush301/MERN-task-manager
+  - Github Repo: https://github.com/ritikpatidar77/mern_task_manager
 
 - Official Docs
 
@@ -189,5 +189,5 @@ Inside backend folder:
 
 ## Contact
 
-- Email: aayush5521186@gmail.com
-- Linkedin: https://www.linkedin.com/in/aayush12/
+- Email: ritikpatidar077@gmail.com
+- Linkedin: https://www.linkedin.com/in/ritik-patidar-428348248/
